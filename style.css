@@ -1,10 +1,22 @@
 
-main{
-    background-color: rgb(245, 245, 220);
+
+
+
+.textbox{
+    
+border: 5px solid;
+font-size: 3em;
+ background-color: rgb(245, 245, 220);
     border: 2px solid black;
-    width: 600px;
-    margin: 20px;
+    
+    margin-left: 200px;
+    margin-right: 200px;
     height: 500px;
+  text-align: center;
+
+box-sizing: border-box; 
+overflow: scroll;
+text-align: center;
 }
 
 header{
