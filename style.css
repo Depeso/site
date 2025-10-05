@@ -6,9 +6,12 @@
     
 border: 5px solid;
 font-size: 3em;
- background-color: rgb(245, 245, 220);
+ background-image: url("images/parchment\ 6.jpg");
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: cover;
     border: 2px solid black;
-    
+    margin-top: 50px;
     margin-left: 200px;
     margin-right: 200px;
     height: 500px;
@@ -30,7 +33,10 @@ body{
         font-family: Roboto, 'Times New Roman', Times, serif;
            font-weight: bold;
            margin: 0px;
-           background-color: brown;
+           background-image: url("images/axel-josefsson-AWtETjU1viI-unsplash.jpg");
+           background-repeat: no-repeat;
+ background-position: center;
+ background-size:auto ;
         
 }
 #head{
