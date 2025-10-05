@@ -19,7 +19,7 @@ font-size: 3em;
   text-align: center;
 
 box-sizing: border-box; 
-overflow: scroll;
+overflow: visible;
 text-align: center;
 }
 
