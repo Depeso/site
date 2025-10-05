@@ -14,7 +14,8 @@ font-size: 3em;
     margin-top: 50px;
     margin-left: 200px;
     margin-right: 200px;
-    height: 500px;
+    margin-bottom: 50px;
+    
   text-align: center;
 
 box-sizing: border-box; 
@@ -36,7 +37,7 @@ body{
            background-image: url("images/axel-josefsson-AWtETjU1viI-unsplash.jpg");
            background-repeat: no-repeat;
  background-position: center;
- background-size:auto ;
+ background-size:cover;
         
 }
 #head{
