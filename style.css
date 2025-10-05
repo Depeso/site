@@ -50,7 +50,7 @@ font-weight: bold;
 text-align: center;
 margin-bottom: 15px;
 margin-top: 30px;
-display: float;
+
   display: flex;
     justify-content: space-evenly; 
     text-align: center;
@@ -80,6 +80,7 @@ header{
     text-decoration: none;
     padding: 15px;
     display: block;
+    
     
 }
 .navbar a:hover{
