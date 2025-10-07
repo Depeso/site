@@ -81,10 +81,11 @@ font-size: 3em;
  background-size: cover;
    
    
-    margin-top: 50px;
-    margin-left: 200px;
-    margin-right: 200px;
-    margin-bottom: 50px;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+    
     
   text-align: center;
 
@@ -92,5 +93,18 @@ box-sizing: border-box;
 overflow: auto;
 text-align: center;
 padding: 30px;
+}
+
+.rats{
+    
+    position: absolute;
+    right: 10%;
+   
+    
+    
+    
+    
+   
+    
 }
 
