@@ -1,6 +1,75 @@
 
 
+header{
+    background-color: rgb(255, 244, 244);
+    border: 2px solid black;
+   
+    
+    
+}
 
+
+header{
+    margin: 0px;
+    
+}
+
+
+body{
+        font-family: Roboto, 'Times New Roman', Times, serif;
+           font-weight: bold;
+           margin: 0px;
+           background-image: url("images/axel-josefsson-AWtETjU1viI-unsplash.jpg");
+           background-repeat: no-repeat;
+ background-position: center;
+ background-size:cover;
+        
+}
+#head{
+    font-size: 8em;
+font-weight: bold;
+text-align: center;
+margin-bottom: 15px;
+margin-top: 30px;
+
+  display: flex;
+    justify-content: space-evenly; 
+    text-align: center;
+    flex-wrap: wrap;
+    align-content:center;
+   
+ 
+}
+
+.navbar ul{
+  background-color: rgb(0, 0, 0);
+    padding: 0px;
+    margin: 0px;
+    overflow: clip;
+}
+.navbar a{
+   
+    color:aliceblue;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    
+    
+}
+.navbar a:hover{
+    background-color: antiquewhite;
+}
+
+.II{
+    list-style-type: none;
+    display:flex;
+    justify-content: space-evenly;
+    gap: 75px;
+
+}
+    .u{
+        display: block;
+    }
 
 .textbox{
     
@@ -24,78 +93,4 @@ overflow: auto;
 text-align: center;
 padding: 30px;
 }
-
-header{
-    background-color: rgb(255, 244, 244);
-    border: 2px solid black;
-   
-    
-    
-}
-
-
-body{
-        font-family: Roboto, 'Times New Roman', Times, serif;
-           font-weight: bold;
-           margin: 0px;
-           background-image: url("images/axel-josefsson-AWtETjU1viI-unsplash.jpg");
-           background-repeat: no-repeat;
- background-position: center;
- background-size:cover;
-        
-}
-#head{
-    font-size: 8em;
-font-weight: bold;
-text-align: center;
-margin-bottom: 15px;
-margin-top: 30px;
-display: float;
-  display: flex;
-    justify-content: space-evenly; 
-    text-align: center;
-    flex-wrap: wrap;
-    align-content:center;
-   
- 
-}
-
-header{
-    margin: 0px;
-     background-image: url("images/copy2.png");
-    background-repeat: no-repeat;
- background-position: center;
- background-size: cover;
-}
-
-.navbar ul{
- 
-    
-    padding: 0px;
-    margin: 0px;
-    overflow: hidden;
-}
-.navbar a{
-    color:aliceblue;
-    text-decoration: none;
-    padding: 15px;
-    display: block;
-    
-}
-.navbar a:hover{
-    background-color: antiquewhite;
-}
-
-.II{
-    list-style-type: none;
-    display:flex;
-    justify-content: center;
-    gap: 10px;
-
-}
-    .u{
-        display: block;
-    }
-
-
 
