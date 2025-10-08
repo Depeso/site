@@ -1,5 +1,3 @@
-
-
 header{
     background-color: rgb(255, 244, 244);
     
@@ -20,13 +18,19 @@ header{
 
 body{
         font-family: Roboto, 'Times New Roman', Times, serif;
-           font-weight: bold;
+        margin: 0px;
+      
+        
+}
+
+main{
+   font-weight: bold;
            margin: 0px;
            background-image: url("images/axel-josefsson-AWtETjU1viI-unsplash.jpg");
            background-repeat: no-repeat;
  background-position: center;
  background-size:cover;
-        
+
 }
 #head{
     font-size: 8em;
@@ -49,7 +53,7 @@ margin-top: 30px;
   border: 3px solid black;
     padding: 0px;
     margin: 0px;
-    overflow: clip;
+    overflow: auto;
 }
 .navbar a{
    
@@ -80,6 +84,11 @@ margin-top: 30px;
     }
 
 
+    .headdoc{
+
+        display: inline-block;
+    }
+
 
 .textbox{
     
@@ -89,39 +98,58 @@ font-size: 3em;
  background-repeat: no-repeat;
  background-position: center;
  background-size: cover;
+ 
    
    
     
   text-align: center;
 
 box-sizing: border-box; 
-overflow: auto;
-text-align: center;
-padding: 30px;
-}
 
-.headdoc{
-margin-top: 5%;
+overflow: clip;
+text-align: center;
+padding: 0px;
+display: inline-block;
+
     margin-left: 10%;
     margin-right: 10%;
+    margin-top: 5%;
     margin-bottom: 5%;
+    
 }
 
+
+
 .rats{
-   position:absolute;
+
+padding: 0;
+
+position:absolute;
 
     right: 10%;
-   
+       
+}
 
-   
-    
-    
-   
-    
-    
-    
-    
-   
-    
+footer{
+   font-size: 2em;
+font-weight: bold;
+    border: 2px solid black;
+    background-color: rgb(224, 224, 224);
+}
+
+
+
+.footbox{
+        
+
+    margin: 3%;
+    text-align: center;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+
+}
+.headtext{
+    padding: 30px;
 }
 
